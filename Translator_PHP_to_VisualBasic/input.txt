@@ -1,0 +1,6 @@
+﻿<?php
+echo "Hello world"
+if ($x > 0) { echo "Positive"; } else { echo "Negative"; }
+for ($i = 0; $i < 10 $i++) { echo $i; }
+$x = 5 + ;
+?>

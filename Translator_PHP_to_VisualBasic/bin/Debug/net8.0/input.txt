@@ -1,0 +1,35 @@
+﻿<?php
+for ($i = 1; $i <= 10; $i++) {
+    echo $i . "\n";
+}
+
+$x = 1;
+while ($x < 5) {
+    echo $x . "\n";
+    $x++;
+}
+
+do {
+    echo $x . "\n";
+    $x++;
+} while ($x < 7);
+
+$number = 10;
+if ($number > 0) {
+    echo "Число положительное\n";
+} else {
+    echo "Число неположительное\n";
+}
+
+$fruit = "apple";
+switch ($fruit) {
+    case "apple":
+        echo "Это яблоко\n";
+        break;
+    case "banana":
+        echo "Это банан\n";
+        break;
+    default:
+        echo "Неизвестный фрукт\n";
+}
+?>
